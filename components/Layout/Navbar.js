@@ -35,7 +35,7 @@ class Navbar extends Component {
             mainNavLinks.forEach(link => {
                 if (link.hash){
                     let section = document.querySelector(link.hash);
-            
+
                     if (
                         section.offsetTop <= fromTop &&
                         section.offsetTop + section.offsetHeight > fromTop
@@ -55,87 +55,67 @@ class Navbar extends Component {
         const classTwo = collapsed ? 'navbar-toggler navbar-toggler-right collapsed' : 'navbar-toggler navbar-toggler-right';
         return (
             <>
-                <nav id="navbar" className="navbar navbar-expand-lg navbar-light bg-light">
+                <nav id="navbar" className="navbar navbar-expand-lg navbar-light bg-light bg-navbar-primary">
                     <div className="container">
                         <Link href="/instagram">
                             <a className="navbar-brand">
-                                <img src="/images/logo.png" alt="logo" />
+                                <img src="/images/logo.svg" alt="logo" height="40px" className='logo'/>
                             </a>
                         </Link>
 
-                        <button 
+                        <button
                             onClick={this.toggleNavbar}
-                            className={classTwo} 
-                            type="button" 
-                            data-toggle="collapse" 
-                            data-target="#navbarSupportedContent" 
-                            aria-controls="navbarSupportedContent" 
-                            aria-expanded="false" 
+                            className={classTwo}
+                            type="button"
+                            data-toggle="collapse"
+                            data-target="#navbarSupportedContent"
+                            aria-controls="navbarSupportedContent"
+                            aria-expanded="false"
                             aria-label="Toggle navigation"
                         >
-                            <span className="navbar-toggler-icon"></span>
+                            <span className="navbar-toggler-icon"/>
                         </button>
 
                         <div className={classOne} id="navbarSupportedContent">
                             <ul className="navbar-nav ml-auto">
-                                <li className="nav-item">
-                                    <AnchorLink 
-                                        onClick={this.toggleNavbar} 
-                                        offset={() => 100} 
-                                        className="nav-link active" 
+                                <li className="nav-item ">
+                                    <AnchorLink
+                                        onClick={this.toggleNavbar}
+                                        offset={() => 100}
+                                        className="nav-link nav-item-primary"
                                         href="#home"
                                     >
-                                        Home
+                                        HOME
                                     </AnchorLink>
                                 </li>
                                 <li className="nav-item">
-                                    <AnchorLink 
-                                        onClick={this.toggleNavbar} 
-                                        offset={() => -1} 
-                                        className="nav-link" 
+                                    <AnchorLink
+                                        onClick={this.toggleNavbar}
+                                        offset={() => -1}
+                                        className="nav-link nav-item-primary"
                                         href="#about"
                                     >
-                                        About
+                                        STORE
                                     </AnchorLink>
                                 </li>
                                 <li className="nav-item">
-                                    <AnchorLink 
-                                        onClick={this.toggleNavbar} 
-                                        offset={() => -1} 
-                                        className="nav-link" 
+                                    <AnchorLink
+                                        onClick={this.toggleNavbar}
+                                        offset={() => -1}
+                                        className="nav-link nav-item-primary"
                                         href="#socialStatistics"
                                     >
-                                        Social Statistics
+                                        ABOUT US
                                     </AnchorLink>
                                 </li>
                                 <li className="nav-item">
-                                    <AnchorLink 
-                                        onClick={this.toggleNavbar} 
-                                        offset={() => -1} 
-                                        className="nav-link" 
+                                    <AnchorLink
+                                        onClick={this.toggleNavbar}
+                                        offset={() => -1}
+                                        className="nav-link nav-item-primary"
                                         href="#instagramAudience"
                                     >
-                                        Instagram Audience
-                                    </AnchorLink>
-                                </li>
-                                <li className="nav-item">
-                                    <AnchorLink 
-                                        onClick={this.toggleNavbar} 
-                                        offset={() => -1} 
-                                        className="nav-link" 
-                                        href="#blog"
-                                    >
-                                        Blog
-                                    </AnchorLink>
-                                </li>
-                                <li className="nav-item">
-                                    <AnchorLink 
-                                        onClick={this.toggleNavbar} 
-                                        offset={() => -1} 
-                                        className="nav-link" 
-                                        href="#contact"
-                                    >
-                                        Contact
+                                        CONTACTS
                                     </AnchorLink>
                                 </li>
                             </ul>

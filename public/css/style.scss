@@ -36,10 +36,10 @@ $font-family: 'Work Sans', sans-serif;
 $font-family2: 'Poppins', sans-serif;
 $font-family3: 'Roboto', sans-serif;
 $font-size: 17px;
-$main-color: #ee0979;
+$main-color: #8f2ca7;
 $main-color2: #cc0000;
 $optional-color: #666666;
-$gradient-color: linear-gradient(to left bottom, #ee0979, #fc1c62, #ff364a, #ff512f, #ff6a00);
+$gradient-color: #8f2ca7;
 $white-color: #ffffff;
 $black-color: #000000;
 $transition: .5s;
@@ -349,7 +349,7 @@ Navbar Area CSS
             .burger-menu {
                 cursor: pointer;
                 transition: $transition;
-    
+
                 span {
                     height: 2px;
                     width: 30px;
@@ -757,25 +757,25 @@ About Area CSS
 }
 @keyframes movebounce {
     0% {
-        transform: translateY(0px); 
+        transform: translateY(0px);
     }
     50% {
-        transform: translateY(20px); 
+        transform: translateY(20px);
     }
     100% {
-        transform: translateY(0px); 
-    } 
+        transform: translateY(0px);
+    }
 }
 @keyframes moveleftbounce {
     0% {
-        transform: translateX(0px); 
+        transform: translateX(0px);
     }
     50% {
-        transform: translateX(20px); 
+        transform: translateX(20px);
     }
     100% {
-        transform: translateX(0px); 
-    } 
+        transform: translateX(0px);
+    }
 }
 
 /*================================================
@@ -894,7 +894,7 @@ Audience Area CSS
 
     .image {
         margin-bottom: 30px;
-    
+
         img {
             border-radius: 0 50px 0 0;
         }
@@ -982,7 +982,7 @@ Audience Area CSS
         .audience-item {
             position: relative;
             margin-bottom: 10px;
-    
+
             .audience-header {
                 margin-bottom: 0;
                 text-transform: uppercase;
@@ -1008,7 +1008,7 @@ Audience Area CSS
                 position: relative;
                 width: 100%;
                 background: #ededed;
-    
+
                 .bar-inner {
                     position: relative;
                     width: 100%;
@@ -1247,11 +1247,11 @@ Podcast Area CSS
     display: flex;
     flex-wrap: wrap;
     align-items: center !important;
-    
+
     .overview-image {
         flex: 0 0 50%;
         max-width: 50%;
-        
+
         .image {
             border-radius: 0 80px 0 0;
             position: relative;
@@ -1275,7 +1275,7 @@ Podcast Area CSS
     .overview-content {
         flex: 0 0 50%;
         max-width: 50%;
-        
+
         .content {
             padding-left: 40px;
 
@@ -1587,7 +1587,7 @@ Blog Details Area CSS
             max-width: 50%;
             color: $optional-color;
             font-size: 15px;
-            
+
             span {
                 display: inline-block;
                 color: $black-color;
@@ -1652,7 +1652,7 @@ Blog Details Area CSS
                         text-align: center;
                         font-size: 13px;
                         margin-left: 5px;
-        
+
                         &:hover, &:focus {
                             color: $main-color;
                             background-color: transparent;
@@ -2227,7 +2227,7 @@ Subscribe Area CSS
     margin-left: auto;
     max-width: 540px;
     padding-right: 30px;
-    
+
     h2 {
         margin-bottom: 12px;
         color: $white-color;
@@ -2362,7 +2362,7 @@ Page Title Area CSS
         }
         i {
             position: relative;
-            top: 1px; 
+            top: 1px;
         }
     }
 }
@@ -2514,7 +2514,7 @@ Modal CSS
         }
     }
 
-    
+
 }
 
 // Go top
@@ -2742,7 +2742,7 @@ Main Banner Area CSS
                 bottom: 15px;
             };
         }
-    
+
         &.navbar-light {
             .navbar-brand {
                 position: relative;
@@ -2760,7 +2760,7 @@ Main Banner Area CSS
                 .burger-menu {
                     cursor: pointer;
                     transition: $transition;
-        
+
                     span {
                         height: 2px;
                         width: 30px;
@@ -3137,7 +3137,7 @@ Featured Videos Area CSS
 /*================================================
 About Area CSS
 =================================================*/
-.about-area-two { 
+.about-area-two {
     .row {
         margin: {
             left: 0;
@@ -3703,7 +3703,7 @@ Blog Area CSS
                 &:first-child {
                     margin-left: 0;
                 }
-            } 
+            }
         }
     }
 }
