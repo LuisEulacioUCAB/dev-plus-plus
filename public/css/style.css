@@ -4007,3 +4007,7 @@ Join Area CSS
 .principal-banner {
     width: 100%;
 }
+
+.bg-navbar-primary{
+    background-color: #C0C0DF!important;
+}

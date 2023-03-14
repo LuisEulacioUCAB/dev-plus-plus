@@ -55,7 +55,7 @@ class Navbar extends Component {
         const classTwo = collapsed ? 'navbar-toggler navbar-toggler-right collapsed' : 'navbar-toggler navbar-toggler-right';
         return (
             <>
-                <nav id="navbar" className="navbar navbar-expand-lg navbar-light bg-light bg-navbar-primary">
+                <nav id="navbar" className="navbar navbar-expand-lg navbar-light bg-light bg-navbar-primary bg-navbar-primary">
                     <div className="container">
                         <Link href="/instagram">
                             <a className="navbar-brand">
