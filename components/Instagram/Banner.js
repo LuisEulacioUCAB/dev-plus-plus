@@ -7,9 +7,7 @@ const Banner = () => {
             <div className="row align-items-center">
                 <div className="col-lg-12 col-md-12">
                     <div className="main-banner-content">
-                        <ScrollAnimation animateIn="fadeInUp" delay={100} animateOnce={true}>
-                            <img src="/images/banner.jpg" className="main-image principal-banner" alt="image" />
-                        </ScrollAnimation>
+                        <img src="/images/banner.jpg" className="main-image principal-banner" alt="image" />
                     </div>
                 </div>
             </div>
