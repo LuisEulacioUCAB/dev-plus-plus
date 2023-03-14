@@ -290,7 +290,7 @@ Navbar Area CSS
     z-index: 999;
     -webkit-box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.09);
     box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.09);
-    background-color: #ffffff !important;
+    background-color: #C0C0DF !important;
     -webkit-animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
     animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
 }
