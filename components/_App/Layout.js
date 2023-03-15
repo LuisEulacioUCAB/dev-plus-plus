@@ -16,22 +16,24 @@ const Layout = ({ children }) => {
 
                 <title>HearMe - React Next Social Media Personal Portfolio Template</title>
                 <meta name="description" content="HearMe - React Next Social Media Personal Portfolio Template." />
-                <meta name="og:title" property="og:title" content="HearMe - React Next Social Media Personal Portfolio Template"></meta>
-                <meta name="twitter:card" content="HearMe - React Next Social Media Personal Portfolio Template"></meta>
-                <link rel="canonical" href="https://hearme-react.envytheme.com/"></link>
+                <meta name="og:title" property="og:title" content="HearMe - React Next Social Media Personal Portfolio Template"/>
+                <meta name="twitter:card" content="HearMe - React Next Social Media Personal Portfolio Template"/>
+                <link rel="canonical" href="https://hearme-react.envytheme.com/"/>
+                <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.png"/>
+
             </Head>
-            
+
             {
-                router.pathname === '/youtube' ? <NavbarTwo /> 
-                : router.pathname === '/instagram-single-blog' ? null 
-                : router.pathname === '/youtube-single-blog' ? null 
+                router.pathname === '/youtube' ? <NavbarTwo />
+                : router.pathname === '/instagram-single-blog' ? null
+                : router.pathname === '/youtube-single-blog' ? null
                 : <Navbar />
             }
-                
+
             {children}
 
             <Footer />
-            
+
             <GoTop scrollStepInPx="100" delayInMs="10.50" />
         </>
     );
