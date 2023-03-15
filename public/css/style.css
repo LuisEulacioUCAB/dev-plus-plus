@@ -2597,8 +2597,7 @@ Footer Area CSS
 .footer-area ul li a::before {
     width: 100%;
     height: 100%;
-    background: -webkit-gradient(linear, right top, left bottom, from(#ee0979), color-stop(#fc1c62), color-stop(#ff364a), color-stop(#ff512f), to(#ff6a00));
-    background: linear-gradient(to left bottom, #ee0979, #fc1c62, #ff364a, #ff512f, #ff6a00);
+    background: #8f2ca7;
     content: '';
     position: absolute;
     left: 0;
