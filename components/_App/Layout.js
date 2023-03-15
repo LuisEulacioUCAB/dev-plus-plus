@@ -14,10 +14,10 @@ const Layout = ({ children }) => {
                 <meta charSet="utf-8" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-                <title>HearMe - React Next Social Media Personal Portfolio Template</title>
-                <meta name="description" content="HearMe - React Next Social Media Personal Portfolio Template." />
-                <meta name="og:title" property="og:title" content="HearMe - React Next Social Media Personal Portfolio Template"/>
-                <meta name="twitter:card" content="HearMe - React Next Social Media Personal Portfolio Template"/>
+                <title>Dev Plus Plus</title>
+                <meta name="description" content="Leveling up developer" />
+                <meta name="og:title" property="og:title" content="Dev Plus Plus"/>
+                <meta name="twitter:card" content="Leveling up developer"/>
                 <link rel="canonical" href="https://hearme-react.envytheme.com/"/>
                 <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.png"/>
 
