@@ -17,7 +17,7 @@ const Layout = ({ children }) => {
                 <title>Dev Plus Plus</title>
                 <meta name="description" content="Leveling up developer" />
                 <meta name="og:title" property="og:title" content="Dev Plus Plus"/>
-                <meta name="twitter:card" content="Leveling up developer"/>
+                <meta name="twitter:card" content="Leveling up Developers"/>
                 <link rel="canonical" href="https://hearme-react.envytheme.com/"/>
                 <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon.png"/>
 

@@ -28,23 +28,12 @@ const FeaturedVideos = ({videos}) => {
         <>
             <section className="featured-videos-area pt-100 pb-70">
                 <div className="container">
-                    <div className="section-title-two">
-                        <h2>My Featured Videos</h2>
-                        <Link href="#">
-                            <a onClick={e => {
-                                e.preventDefault();
-                                window.open('https://www.youtube.com', '_blank')
-                            }} className="link-btn">See All</a>
-                        </Link>
-                    </div>
-
                     <div className="row">
-
                         {videos && (videos.map((v, i) => (
                             <div className="col-lg-3 col-sm-6 col-md-6" key={v.etag}>
                                 <div className="single-featured-videos-box">
                                     <div className="videos-image">
-                                        <img src={v.snippet.thumbnails.medium.url} alt={v.snippet.title}/>
+                                        <img src={v.snippet.thumbnails.medium.url} alt={v.snippet.title} width="100%"/>
 
                                         <span className="duration">03.05</span>
                                         <span className="icon">
@@ -72,15 +61,15 @@ const FeaturedVideos = ({videos}) => {
                                                         openModal();
                                                         handleVideoId(v.id.videoId)
                                                     }}
-                                                    className="popup-youtube"
+                                                    className="popup-youtube text-light"
                                                 >
                                                     {v.snippet.title}
                                                 </a>
                                             </Link>
                                         </h3>
-                                        <ul className="videos-meta">
-                                            <li>4.3M views</li>
-                                            <li>{formatDate(v.snippet.publishedAt)}</li>
+                                        <ul className="videos-meta ">
+                                            <li className="text-light">4.3M views</li>
+                                            <li className="text-light">{formatDate(v.snippet.publishedAt)}</li>
                                         </ul>
                                     </div>
                                 </div>

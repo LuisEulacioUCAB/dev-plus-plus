@@ -13,13 +13,16 @@ const Home = ({videos}) => {
 }
 
 Home.getInitialProps = async () => {
-    const API_KEY = 'AIzaSyAf_g1xy-7yy0SZsJIPpuiSZi8IXWU02fM';
-    const response = await axios.get('https://www.googleapis.com/youtube/v3/playlists', {
+    // console.log('process.env.REACT_APP_GOOGLE_SECRET_KEY',process.env.REACT_APP_GOOGLE_SECRET_KEY)
+    const API_KEY = 'AIzaSyDlQp0kSfSnGB4B1PMsyjYLKhFij2_Eo9A';
+    const response = await axios.get('https://www.googleapis.com/youtube/v3/search', {
         params: {
             key: API_KEY,
+            type: 'video',
             part: 'snippet',
-            maxResults: 25,
-            channelId:'UC-zPXpOK4pPIegv55NrUr6w'
+            q: 'katy perry',
+            maxResults: 16,
+            videoCount: 'desc'
         }
     });
 

@@ -65,39 +65,26 @@ class Navbar extends Component {
                             </a>
                         </Link>
 
-                        <button
-                            onClick={this.toggleNavbar}
-                            className={classTwo}
-                            type="button"
-                            data-toggle="collapse"
-                            data-target="#navbarSupportedContent"
-                            aria-controls="navbarSupportedContent"
-                            aria-expanded="false"
-                            aria-label="Toggle navigation"
-                        >
-                            <span className="navbar-toggler-icon"/>
-                        </button>
-
-                        <div className={classOne} id="navbarSupportedContent ">
+                        <div className="justify-content-end" id="navbarSupportedContent ">
                             <div className="footer-area">
-                                <ul>
+                                <ul className="m-0">
                                     <li>
-                                        <a href="https://instagram.com/" target="_blank">
-                                            <i className='bx bxl-instagram'></i>
+                                        <a href="https://www.youtube.com/@dev-plusplus" target="_blank">
+                                            <i className='bx bxl-youtube'></i>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="https://facebook.com/" target="_blank">
-                                            <i className='bx bxl-facebook'></i>
+                                        <a href="https://t.me/is_devplusplus" target="_blank">
+                                            <i className='bx bxl-telegram'></i>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="https://twitter.com/" target="_blank">
+                                        <a href="https://twitter.com/Dev_Plus_Plus?t=zGDJ5YS9wBC_BtGwJSYRIg&s=09" target="_blank">
                                             <i className='bx bxl-twitter'></i>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="https://linkedin.com/" target="_blank">
+                                        <a href="https://www.linkedin.com/company/dev-plusplus" target="_blank">
                                             <i className='bx bxl-linkedin'></i>
                                         </a>
                                     </li>
