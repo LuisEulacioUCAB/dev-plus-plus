@@ -470,6 +470,7 @@
   }
   .footer-area {
     text-align: center;
+    background-color: #C0C0DF !important;
   }
   .footer-area p {
     line-height: 1.5;

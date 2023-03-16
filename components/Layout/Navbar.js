@@ -69,6 +69,11 @@ class Navbar extends Component {
                             <div className="footer-area">
                                 <ul className="m-0">
                                     <li>
+                                        <a href="https://instagram.com/dev_plus_plus?igshid=YmMyMTA2M2Y=" target="_blank">
+                                            <i className='bx bxl-instagram'></i>
+                                        </a>
+                                    </li>
+                                    <li>
                                         <a href="https://www.youtube.com/@dev-plusplus" target="_blank">
                                             <i className='bx bxl-youtube'></i>
                                         </a>

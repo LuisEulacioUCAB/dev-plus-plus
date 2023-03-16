@@ -2552,6 +2552,7 @@ Footer Area CSS
 .footer-area {
     padding-top: 20px;
     padding-bottom: 20px;
+    background-color: #C0C0DF !important
 }
 
 .footer-area p {
@@ -2563,10 +2564,7 @@ Footer Area CSS
 }
 
 .footer-area p a {
-    background: -webkit-gradient(linear, right top, left bottom, from(#ee0979), color-stop(#fc1c62), color-stop(#ff364a), color-stop(#ff512f), to(#ff6a00));
-    background: linear-gradient(to left bottom, #ee0979, #fc1c62, #ff364a, #ff512f, #ff6a00);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: '#30088a'
 }
 
 .footer-area ul {
@@ -2702,7 +2700,7 @@ Modal CSS
 }
 
 .go-top i {
-    background-color: #ee0979;
+    background-color: #8f2ca7;
     color: #ffffff;
     width: 30px;
     height: 35px;
@@ -2714,7 +2712,7 @@ Modal CSS
 }
 
 .go-top i:hover {
-    background-color: #000000;
+    background-color: #8f2ca7;
 }
 
 /* Start Home Two CSS */
@@ -3266,7 +3264,7 @@ Featured Videos Area CSS
 }
 
 .single-featured-videos-box .videos-image:hover .icon {
-    background-color: #cc0000;
+    background-color: #8f2ca7;
     color: #ffffff;
 }
 
@@ -4008,6 +4006,6 @@ Join Area CSS
     width: 100%;
 }
 
-.bg-navbar-primary{
-    background-color: #C0C0DF!important;
+.bg-navbar-primary {
+    background-color: #C0C0DF !important;
 }
