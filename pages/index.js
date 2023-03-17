@@ -7,7 +7,7 @@ const Home = ({videos}) => {
     return (
         <>
             <Banner/>
-            <FeaturedVideos videos={videos.slice(0, 4)} />
+            <FeaturedVideos videos={videos} />
         </>
     );
 }

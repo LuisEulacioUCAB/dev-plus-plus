@@ -20,7 +20,6 @@ const FeaturedVideos = ({videos}) => {
     }
 
     const handleVideoId = (e) => {
-        console.log('e', e);
         setVideoId(e)
     }
 
